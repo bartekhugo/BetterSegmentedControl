@@ -435,7 +435,6 @@ import UIKit
     
     private func updateCornerRadii() {
         indicatorView.cornerRadius = cornerRadius - indicatorViewInset
-        allSegmentViews.forEach { $0.layer.cornerRadius = indicatorView.cornerRadius }
     }
     
     private func updateSegmentViewTraits() {
